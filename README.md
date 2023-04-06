@@ -1,5 +1,6 @@
 # StageCompressionDeDonnees
-## Méthodes de compression de données ; Encadrant : Stéphane Labbé
+## Méthodes de compression de données 
+## Encadrant : Stéphane Labbé
 
 Sous la direction de M. Labbé, le stage portera sur *l'étude de diverses méthodes de compression de données*. 
 D'un **point de vue mathématique**, nous nous concentrerons sur les *transformations en ondelettes* et en particulier 
