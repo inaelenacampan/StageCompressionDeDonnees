@@ -5,6 +5,8 @@
 % Replace `english' with e.g. `spanish' to change the document language
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{listings}
+
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{naturalnames}{hyperref}
 % Set page size and margins
@@ -23,7 +25,7 @@
 
 \begin{abstract}
 
-Introduction aux notions de Bases de Haar et de fonctions de Haar, avec leurs applications dans la compression des données.
+Introduction aux notions de Bases de Haar et de fonctions de Haar.
 
 \end{abstract}
 
@@ -71,5 +73,19 @@ Les fonctions de Haar forment une base Hilbertienne de l'espace $\mathbb{L}^2[0,
     \item la suite est orthogonale
     \item la suite est totale : l'espace vectoriel engendré par la suite de fonctions est dense dans $\mathbb{L}^2[0,1[$
 \end{enumerate}
+
+\section{Décomposition en base de Haar. Matrices}
+
+\section{Implémentation Python pour les ondelettes}
+
+Il existe une bibliothèque python pour implémenter des codes concernant la compréssion des données :
+
+\begin{lstlisting}
+
+import pywt
+from pywt import wavedec
+import numpy as np
+
+\end{lstlisting}
 
 \end{document}
