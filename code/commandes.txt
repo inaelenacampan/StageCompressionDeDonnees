@@ -1,0 +1,4 @@
+python -m pdoc --html images.py
+python -m pdoc --html images.py --force
+
+python -m pdoc --html . --force

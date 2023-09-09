@@ -10,8 +10,3 @@ pour l'accélération des calculs en électromagnétisme, en particulier pour de
 D'un **point de vue implémentation**, le langage utilisé sera *Python*. Concernant mon projet professionnel, ce stage sera un outil 
 pour découvrir le milieu de la recherche et continuer vers un master comme les parcours IMA, DAC ou Ingénierie mathématique.
 
-# Introduction
-
-```
-IntroductionPython.ipynb
-```
